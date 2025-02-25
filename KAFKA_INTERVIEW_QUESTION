@@ -1,0 +1,97 @@
+Basic Kafka Concepts
+What is Apache Kafka, and how does it work?
+What are the main components of Kafka architecture?
+What is the difference between a Kafka Producer and a Kafka Consumer?
+What is a Kafka Broker? How does it work?
+What is a Kafka Topic, and how are partitions used in Kafka?
+How does Kafka ensure fault tolerance?
+What is a Kafka Zookeeper, and why is it required?
+How does Kafka handle message retention and log compaction?
+What is the difference between Kafka and traditional message queues like RabbitMQ or ActiveMQ?
+What are the different types of Kafka consumers?
+
+
+Kafka Producers & Consumers
+How does a Kafka Producer work internally?
+What is acks in Kafka, and how does it impact reliability?
+What happens if a Kafka producer sends a message to a non-existing topic?
+How does a Kafka Consumer work?
+What are consumer groups, and how does Kafka distribute messages among consumers?
+What is auto.offset.reset in Kafka?
+How does Kafka handle consumer failures?
+How do you commit offsets in Kafka? What are the types of offset commits?
+What is at-most-once, at-least-once, and exactly-once delivery semantics in Kafka?
+How can you improve consumer performance in Kafka?
+Kafka Internals & Performance Tuning
+How do Kafka partitions improve scalability?
+How does Kafka handle data replication?
+How do you monitor Kafka performance?
+How can you optimize Kafka for high throughput?
+What are batch size and linger.ms in Kafka producers?
+What is the impact of increasing partitions in a topic?
+What is ISR (In-Sync Replicas) in Kafka?
+How does Kafka handle message ordering across partitions?
+What happens when a Kafka broker goes down?
+How do you configure Kafka for high availability?
+
+
+Kafka Security & Reliability
+How do you secure a Kafka cluster?
+What are Kafka SSL/TLS authentication and SASL authentication?
+How do you implement role-based access control (RBAC) in Kafka?
+What are some common security vulnerabilities in Kafka, and how do you prevent them?
+How does Kafka handle data durability?
+What is message compaction, and when should you use it?
+How can you encrypt data in Kafka?
+What are the different levels of data durability in Kafka?
+How can you prevent data loss in Kafka?
+What is a dead letter queue (DLQ) in Kafka, and how do you implement it?
+Kafka Streams & Real-time Processing
+What is Kafka Streams, and how does it differ from Kafka Consumers?
+What is stateful vs. stateless processing in Kafka Streams?
+How do you handle windowing in Kafka Streams?
+What is KTable vs. KStream in Kafka Streams?
+How do you join multiple Kafka topics in Kafka Streams?
+What is exactly-once processing in Kafka Streams?
+How does Kafka Streams handle failures?
+How does watermarking work in Kafka Streams?
+What is interactive queries in Kafka Streams?
+What is GlobalKTable, and when should you use it?
+
+Kafka Connect & Integrations
+What is Kafka Connect, and how does it work?
+What are Kafka Connect sources and sinks?
+How do you configure a Kafka Connect worker?
+What is the difference between standalone and distributed Kafka Connect mode?
+What are some common Kafka connectors?
+How do you configure Kafka Connect for schema evolution?
+How do you integrate Kafka with MySQL/PostgreSQL?
+What is Kafka Schema Registry, and how does it work?
+How does Kafka Connect handle data transformation?
+How do you monitor Kafka Connect?
+
+
+Kafka Use Cases & Real-world Scenarios
+How does Kafka handle large-scale data ingestion?
+Can you explain a real-world Kafka architecture you’ve worked on?
+How do you design a Kafka-based event-driven system?
+How do you implement event sourcing using Kafka?
+What are some common pitfalls in Kafka implementations?
+How do you handle schema changes in Kafka?
+How do you use Kafka for log aggregation?
+How do you implement multi-datacenter Kafka deployment?
+How do you ensure idempotent message processing?
+How do you troubleshoot message lag issues in Kafka consumers?
+
+
+Advanced Kafka Topics
+What is Kafka Rebalancing, and how does it affect consumers?
+How do you handle backpressure in Kafka?
+What is Kafka KRaft mode, and how does it replace Zookeeper?
+How do you scale Kafka clusters dynamically?
+How do you implement transactional messaging in Kafka?
+What is Kafka MirrorMaker, and when should you use it?
+What are Kafka Tiered Storage and its benefits?
+How do you implement geo-replication in Kafka?
+How do you monitor consumer lag in Kafka?
+What are Kafka quotas, and how do they work?
